@@ -1,0 +1,65 @@
+$primary-color: red;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    // &: nối từ
+    &-top{
+        color: $primary-color;
+        &:hover{
+            color:orange
+        }
+    }
+
+    &-content{
+        font-size: 5rem;
+    }
+}
+
+// .boxed{
+//     width: 10rem;
+//     height: 10rem;
+//     background-color: coral;
+// }
+// hàm mixin: 1 đoạn code được sử dụng đi sử dụng lại để làm mục đích gì đó ( giúp tiết kiệm thời gian hơn )
+
+@mixin size($width,$height:$width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin bg($color:black) {
+    background-color: $color
+}
+
+.boxed{
+    // include: khai báo để sử dụng mixin
+    // giá trị mặc định : tức là nếu chúng ta không chèn vào thì nó sẽ lấy giá trị đó 
+    @include size(10rem);
+    @include bg(orange)
+}
+
+@mixin absolute() {
+    position: absolute;
+}
+
+.container{
+    @include size(100%,40rem);
+    background-color: orangered;
+    position: relative;
+    .boxing{
+        @include size(5rem,5rem);
+        @include bg(white);
+        
+        
+    }
+}

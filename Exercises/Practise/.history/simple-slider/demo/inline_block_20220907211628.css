@@ -1,0 +1,26 @@
+.box-parent{
+    width: 460px;
+    background-color: aqua;
+    position: relative;
+
+}
+
+.box-1{
+    width: 200px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.box-2{
+    text-align: center;
+    color: white;
+    width: 200px;
+    background-color: rgb(17, 16, 18);
+    position: absolute;
+    opacity: 0.4;
+}
+
+.box-parent:hover{
+    tra
+    transform: rotate(320deg);
+}

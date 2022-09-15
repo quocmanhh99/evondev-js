@@ -1,0 +1,12 @@
+#wrapper{
+    width:960px;
+    margin: 0 auto;
+    background-color: bisque;
+    height: 100%;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background: green;
+}

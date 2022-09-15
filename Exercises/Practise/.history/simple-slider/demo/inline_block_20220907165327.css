@@ -1,0 +1,19 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    border: 1px solid blue;
+    min-height: 600px;
+}
+
+.item{
+    background-color: aqua;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid red;
+}

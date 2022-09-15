@@ -1,0 +1,7 @@
+a[href]{
+    color:red
+}
+
+a[href = 'https://google.com/']{
+    color:red
+}

@@ -1,0 +1,11 @@
+.box-parent{
+    background-color: lemonchiffon;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+
+.box-1{
+    width: 100px;
+    height: 80px;
+}

@@ -1,0 +1,15 @@
+.box {
+    width: 8%;
+    height: 120px;
+    background-color: #333;
+    position: relative;
+}
+
+.box-child {
+    background-color: rgba(255,255,255,0.2);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}

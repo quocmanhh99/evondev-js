@@ -1,0 +1,40 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    border: 1px solid blue;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item{
+    background-color: aqua;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid red;
+    flex-grow: 1;
+}
+
+/* .item:nth-child(2n+1){
+    font-size: 40px;
+} */
+
+.item:nth-child(1){
+    
+}
+.item:nth-child(2){
+    
+}
+.item:nth-child(3){
+    
+}
+.item:nth-child(1){
+    
+}

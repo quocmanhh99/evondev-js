@@ -1,0 +1,28 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    border: 1px solid blue;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    pa
+}
+
+.item{
+    background-color: aqua;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid red;
+}
+
+.item:nth-child(2n+1){
+    font-size: 40px;
+}

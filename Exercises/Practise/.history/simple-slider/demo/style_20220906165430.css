@@ -1,0 +1,14 @@
+.boxed{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    po`
+}
+
+.wrap{
+    width: 50%;
+    height: 50rem;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+}

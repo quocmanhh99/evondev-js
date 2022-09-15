@@ -1,0 +1,26 @@
+$primary-color: red;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    // &: nối từ
+    &-top{
+        color: $primary-color;
+        &:hover{
+            color:orange
+        }
+    }
+
+    -content{
+
+    }
+}

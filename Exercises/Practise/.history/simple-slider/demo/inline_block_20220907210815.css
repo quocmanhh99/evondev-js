@@ -1,0 +1,16 @@
+.box-parent{
+    width: 460px;
+    background-color: aqua;
+    display: flex;
+    flex-grow: 1;
+}
+
+.box-1{
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.box-2{
+    width: 200px;
+    background-color: rgb(17, 16, 18);
+}

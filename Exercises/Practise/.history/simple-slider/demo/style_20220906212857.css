@@ -1,0 +1,7 @@
+ul#main-menu>li>a{
+    color:blue
+}
+
+ul#main-menu ul.sub-menu>li>a {
+    color: b
+}

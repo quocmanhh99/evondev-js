@@ -1,0 +1,14 @@
+.box-parent{
+    width: 460px;
+    background-color: aqua;
+    height: 500px;
+    
+
+}
+
+
+.box-parent:hover{
+    transition: all 0.5s;
+    transform: rotate(360deg);
+    tra
+}

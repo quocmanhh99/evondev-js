@@ -1,0 +1,10 @@
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+
+.box{
+    width: 500px;
+    min-height: 300px;
+    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=wUdYNC1F&id=4FFEBCADEB7FF9B35147D6893DEB3981C5E94047&thid=OIP.wUdYNC1FU3W5QE5gtqUuwQHaHZ&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c14758342d455375b9404e60b6a52ec1%3frik%3dR0DpxYE56z2J1g%26riu%3dhttp%253a%252f%252fwww.muwa.gmbh%252f.cm4all%252fuproc.php%252f0%252fMUWA_Logo-01.jpeg%253f_%253d1713f9a8358%26ehk%3d2F6aTvPrvo3SS5zOxIlSF%252fDdiP3LqYJC%252boPUjhU6lzM%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1714&expw=1715&q=muwa&simid=607997838624896770&FORM=IRPRST&ck=01ADF0A975D0FE380B12A3B1859378D2&selectedIndex=0&ajaxhist=0&ajaxserp=0');
+}
